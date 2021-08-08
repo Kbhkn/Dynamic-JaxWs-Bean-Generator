@@ -27,9 +27,9 @@ ws:
       anotherservice:
         portName: AnotherServicePort
         serviceName: AnotherService
-        namespaceUri: http://anothertest.com/AnotherTestService/Service/V1
-        endpointAddress: https://anothertest.com/services/AnotherTestService
-        serviceInterface: com.kbhkn.ws.anothertestservice.service.v1.AnotherTestService
+        namespaceUri: http://anothertest.com/AnotherService/Service/V1
+        endpointAddress: https://anothertest.com/services/AnotherService
+        serviceInterface: com.kbhkn.ws.anotherservice.service.v1.AnotherServicePort
         properties:
           username: Kbhkn
           password: 123456
@@ -39,7 +39,7 @@ ws:
 ```
 
 >You can inject the **com.kbhkn.ws.testservice.service.v1.TestServicePort** interface. </br>
->You can inject the **com.kbhkn.ws.anothertestservice.service.v1.AnotherTestService** interface.
+>You can inject the **com.kbhkn.ws.anotherservice.service.v1.AnotherServicePort** interface.
 
 ### Guides
 The following guides illustrate how to use some features:
