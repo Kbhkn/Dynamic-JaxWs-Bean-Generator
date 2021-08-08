@@ -5,7 +5,7 @@
 * It creates the beans and can mask sensitive data during logs.
 
 * It would be best to add the web service classes as a dependency before using them. Otherwise, it should be created from WSDL.
-* Example service definition;
+* I have provided an example service definition:
 
 ```yaml
 ws:
@@ -24,6 +24,9 @@ ws:
             - exampleKey1: exampleValue1
             - exampleKey2: exampleValue2
 ```
+
+>You can inject the **com.kbhkn.ws.testservice.service.v1.TestServicePort** interface.
+
 ### Guides
 The following guides illustrate how to use some features:
 
