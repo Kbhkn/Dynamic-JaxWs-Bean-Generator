@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.kbhkn.dynamicjaxwsbeangenerator.autoconfigurer.ModuleLoader
