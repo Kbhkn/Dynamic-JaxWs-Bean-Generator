@@ -1,3 +1,4 @@
+
 ## Bean generator for the JaxWSPortProxyFactory
 
 #### Abstract
@@ -37,8 +38,8 @@ ws:
             - exampleKey2: exampleValue2
 ```
 
->You can inject the **com.kbhkn.ws.testservice.service.v1.TestServicePort** interface.
->You can inject the **com.kbhkn.ws.anothertestservice.service.v1.AnotherTestService* interface.
+>You can inject the **com.kbhkn.ws.testservice.service.v1.TestServicePort** interface. </br>
+>You can inject the **com.kbhkn.ws.anothertestservice.service.v1.AnotherTestService** interface.
 
 ### Guides
 The following guides illustrate how to use some features:
